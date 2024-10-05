@@ -1,0 +1,38 @@
+.container{
+	position: fixed;
+	width: 100%;
+	bottom: 24px;
+
+	.centerElems{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 18px;
+		margin-bottom: 12px;
+		.links{
+			span{
+				&:not(:last-child){
+					margin-right: 8px;
+				}
+			}
+		}
+
+	}
+
+	.rightBottomElems{
+		position: absolute;
+		display: flex;
+		right: 48px;
+		bottom: 32px;
+		align-items: center;
+		
+		button{
+			height: 38px;
+		}
+
+		span{
+			margin-left: 16px;
+			font-size: 45px;
+		}
+	}
+}

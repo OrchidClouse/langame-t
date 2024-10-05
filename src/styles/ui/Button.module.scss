@@ -1,0 +1,39 @@
+.defaultButton{
+	outline: none;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	.icon{
+		display: flex;
+		position: absolute;
+		margin-left: 110px;
+	}
+
+	&.default{
+		background-color: #DC0000;
+		width: 100%;
+		height: 44px;
+		border-radius: 34px;
+		border: none;
+		color: #fff;
+		font-size: 14px;
+	}
+
+	&.small{
+		background: #fff;
+		border: 2px solid #C9C9C9;
+		border-radius: 10px;
+	}
+
+	&.light{
+		background: #fff;
+		border: 2px solid #C9C9C9;
+		border-radius: 10px;
+		width: 100%;
+		height: 44px;
+		border-radius: 34px;
+	}
+}

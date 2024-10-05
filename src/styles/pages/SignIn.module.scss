@@ -1,0 +1,55 @@
+.container{
+	// display: flex;
+	// margin: 0;
+	// align-items: center;
+	
+	form{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 339px;
+		// gap: 8px;
+
+		.logo{
+			margin-bottom: 64px;
+		}
+
+		.inputBlock{
+			display: grid;
+			gap: 20px;
+			margin-bottom: 28px;
+			width: 339px;
+		}
+
+		.forgotPass{
+			margin-bottom: 38px;
+			font-size: 12px;
+		}
+
+		.noAccount{
+			margin-top: 48px;
+			display: flex;
+			flex-direction: column;
+			align-self: center;
+			text-align: center;
+
+			a{
+				text-decoration: none;
+				margin-top: 8px;
+				color: #DC0000;
+			}
+		}
+
+		.stores{
+			margin-top: 32px;
+			text-align: center;
+			display: grid;
+			gap: 24px;
+
+			div{
+				display: flex;
+				gap: 20px;
+			}
+		}
+	}
+}
